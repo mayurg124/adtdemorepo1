@@ -4,6 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"value": "adf-repo-dem1"
+		},
+		"linkedserviceazdl_accountKey": {
+			"value": ""
+		},
+		"linkedserviceazdl_properties_typeProperties_url": {
+			"value": "https://madfstorage007.dfs.core.windows.net"
 		}
 	}
 }
