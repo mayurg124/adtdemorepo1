@@ -1,0 +1,19 @@
+{
+	"name": "binarydataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedserviceazdl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Data.txt",
+				"folderPath": "Input",
+				"fileSystem": "adfmayur"
+			}
+		}
+	}
+}
